@@ -4,7 +4,7 @@
 // $(document).ready(function () {
 //     $("#getWeather2").click(function () {
 //         $.get(
-//             "http://api.openweathermap.org/data/2.5/weather?q=Dusseldorf,DE&APPID=bab672808d995e00419525a12207abe7", function(data, status){
+//             "https://api.openweathermap.org/data/2.5/weather?q=Dusseldorf,DE&APPID=bab672808d995e00419525a12207abe7", function(data, status){
 //             console.log('Data:' + JSON.stringify(data) + "\nstatus:" + status);  
 //             des  = data['weather'][0] ['description'];
 //             temp = data['main'] ['temp'];
