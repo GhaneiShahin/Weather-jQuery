@@ -36,7 +36,7 @@ $(document).ready(function(){
     {
     var wf = '';
     $.each(data.weather, function(index, val){
-    wf += '<p><b>' + data.name + " " + "</b><img src=" + "http://openweathermap.org/img/w/" + data['weather'][0].icon + ".png></p>" + 
+    wf += '<p><b>' + data.name + " " + "</b><img src=" + "https://openweathermap.org/img/w/" + data['weather'][0].icon + ".png></p>" + 
     data.main.temp + '&deg;c' + ' | ' + val.main + "," + 
     val.description
     
